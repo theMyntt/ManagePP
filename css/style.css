@@ -1,0 +1,130 @@
+:root {
+  --orange: #ffa500;
+  --dark-orange: #986300;
+  --purple: #800080;
+  --dark-purple: #4d004d;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+label {
+  display: grid;
+}
+
+button {
+    cursor: pointer;
+}
+
+#login form {
+  width: 300px;
+  display: grid;
+}
+
+button {
+  height: 50px;
+  border: 0;
+}
+
+header {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  /* color: #fff; */
+  padding: 0 30px;
+}
+
+header.orange,
+button.orange {
+  background-color: var(--orange);
+}
+header.purple,
+button.purple {
+  background-color: var(--purple);
+  color: #fff;
+}
+
+nav {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
+
+nav.orange {
+  background-color: var(--dark-orange);
+}
+nav.purple {
+  background-color: var(--dark-purple);
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+input {
+  border: 0;
+  height: 40px;
+  font-size: 17px;
+  padding: 0 20px;
+}
+input:focus {
+  outline: none;
+}
+input.orange {
+  border-bottom: 2px solid var(--orange);
+}
+input.purple {
+  border-bottom: 2px solid var(--purple);
+}
+
+nav ul li {
+  margin: 0 20px 0 0;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+nav ul li:last-child {
+  margin: 0;
+}
+
+li a {
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+li a:hover {
+  color: #000;
+}
+
+#changeTheme {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+}
+
+
+#login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.default-main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.choices-button {
+    padding: 0 20px;
+}
