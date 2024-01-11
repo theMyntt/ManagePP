@@ -16,3 +16,7 @@ function toggleColor() {
 
   i++;
 }
+
+document.getElementById("refresh").addEventListener("click", () => {
+  location.reload(true);
+});

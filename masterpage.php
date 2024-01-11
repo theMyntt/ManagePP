@@ -11,7 +11,7 @@
             }else{
                 echo "
                     <li><a href='./home.php'>Inicio</a></li>
-                    <li><a href='./'>Recarregar</a></li>
+                    <li><a href='#' id='refresh'>Recarregar</a></li>
                     <li><a href='./logout.php'>Fazer logout</a></li>
                 ";
             }
